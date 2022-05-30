@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-sky-500 to-indigo-500 text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-white to-bg-[#1da1f2] text-gray-300">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "150px" }} />
       </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Telefon <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

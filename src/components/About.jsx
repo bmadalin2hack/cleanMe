@@ -1,32 +1,55 @@
 import React from "react";
+import Exemplu2 from "../assets/bf3.jpeg";
+import Exemplu3 from "../assets/bf2.jpeg";
+import Exemplu4 from "../assets/bf1.jpeg";
+import Exemplu5 from "../assets/bf4.jpeg";
+import Exemplu6 from "../assets/bf6.jpeg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-r from-sky-500 to-indigo-500 text-gray-300"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-              About
+              Buna
             </p>
           </div>
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hello</p>
-          </div>
-          <div>
+          <div className="sm:text-right text-3xl font-bold">
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              Suntem o echipa devotata curateniei si indeplinirii tuturor
+              nevoilor clientilor. Vezi exemple cu lucrari facute ca la carte.
+              Curat murdar ar fi mandrii de noi.
             </p>
           </div>
         </div>
       </div>
+      <div
+        style={{ backgroundImage: `url(${Exemplu2})` }}
+        className=" min-h-screen bg-no-repeat bg-center"
+      ></div>
+      <div
+        style={{ backgroundImage: `url(${Exemplu3})` }}
+        className="min-h-screen bg-no-repeat bg-center"
+      ></div>
+      <div
+        style={{ backgroundImage: `url(${Exemplu4})` }}
+        className="min-h-screen bg-no-repeat bg-center"
+      ></div>
+      <div
+        style={{ backgroundImage: `url(${Exemplu5})` }}
+        className="min-h-screen bg-no-repeat bg-center"
+      ></div>
+      <div
+        style={{ backgroundImage: `url(${Exemplu6})` }}
+        className="min-h-screen bg-no-repeat bg-center"
+      ></div>
     </div>
   );
 };
